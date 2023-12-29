@@ -1,0 +1,23 @@
+@import "../../App.css";
+
+.custom-alert {
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.close-btn:hover {
+    opacity: 0.8;
+}
+
+div[type="error"] {
+    background-color: hsl(var(--clr-error), 0.5);
+    border-color: hsl(var(--clr-error));
+}
+
+div[type="success"] {
+    background-color: hsl(var(--clr-success), 0.5);
+    border-color: hsl(var(--clr-success));
+}

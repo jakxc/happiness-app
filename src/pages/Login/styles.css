@@ -1,0 +1,6 @@
+@import "../../App.css";
+
+.login-img {
+    max-width: 100%;
+    border: solid 1px hsl(var(--color-primary));
+}

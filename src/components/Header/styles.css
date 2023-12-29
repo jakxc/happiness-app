@@ -1,0 +1,19 @@
+@import "../../App.css";
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+}
+
+.scrolled {
+    background-color: hsl(var(--clr-dark));
+    box-shadow: 0 3px 5px 0 hsl(var(--clr-dark));
+}
+
+.nav button {
+    width: 50px;
+    border: none;
+}

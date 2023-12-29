@@ -1,0 +1,11 @@
+@import "../../App.css";
+
+.cell {
+    width: 300px;
+    max-width: 100%;
+}
+
+.cell:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
